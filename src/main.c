@@ -1,12 +1,5 @@
 #include <stdio.h>
-
-int main() {
-    printf("%p\n", other);
-    fflush(stdout);
-    input();
-
-    return 0;
-}
+#include <stdlib.h>
 
 void input() {
     char buffer[10];
@@ -17,4 +10,12 @@ void other() {
     printf("there is a hack attack");
     fflush(stdout);
     exit(0);
+}
+
+int main() {
+    printf("%p\n", other);
+    fflush(stdout);
+    input();
+
+    return 0;
 }
